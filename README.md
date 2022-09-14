@@ -17,6 +17,7 @@ Criar arquivo com extensão NOME_SERVICE.service e mover para /etc/systemd/syste
 Executar comando: systemctl daemon-reloadc
 Executar comando: systemctl start NOME_SERVICE.service
 
+```
 [Unit]
 Description=Nome do Aplicativo
 
@@ -29,4 +30,4 @@ Restart=always
 [Install]
 WantedBy=multi-user.target 
 
-
+```
