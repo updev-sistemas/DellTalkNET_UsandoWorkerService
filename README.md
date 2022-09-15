@@ -1,7 +1,3 @@
-DellTalkNET_UsandoWorkerService
-
-
-
 # Instalação Windows
 
 sc.exe create NOME_APLICATIVO binpath= CAMINHO_DO_APLICATIVO.exe start= auto
